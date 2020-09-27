@@ -31,12 +31,12 @@ Estudiante: Sara Rodriguez Lopez
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#" style="font-size: 20px; padding-right: 800px;">Inicio</a>
+            <a class="nav-link" href="#" style="font-size: 20px; padding-right: 550px;">Inicio</a>
           </li>
           
           <!-- Dropdown -->
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="font-size: 20px; padding-right: 40px;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="font-size: 20px; padding-left: 20px; padding-right: 10px;">
             Articulos
             </a>
             <div class="dropdown-menu">
@@ -47,13 +47,47 @@ Estudiante: Sara Rodriguez Lopez
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size: 20px; padding-right: 20px;">Contactanos</a>
+            <a class="nav-link" href="#" style="font-size: 20px; padding-left: 10px;">Contactanos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size: 20px; padding-right: 20px;">Acerca de</a>
+            <a class="nav-link" href="#" style="font-size: 20px; padding-left: 30px;">Acerca de</a>
           </li>
+
+          <form class="form-inline" action="/action_page.php" style="padding-left: 40px;">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+            <button class="btn btn-success bg-dark" type="submit">Buscar</button>
+          </form>
         </ul>
       </nav>
+
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="#" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="#" alt="Chicago">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
       
       <div class="container">
         <div class="row">
